@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <!-- <input type="tel"  pattern="[1,2,3][0,9]{9}" title="enter numbers start with 1,2,3, we should enter 9 numbers"> -->
+        <input type="email" placeholder="enter your eamil" pattern="[a-zA-Z0-9]{5,}@gmail.com"> <!--it should be more than 5 chars>--->
+   
+        <input type="password" placeholder="enter pswd" pattern="(?=.*[A-z])(?=.*[a-z])(?=.*[0-9])(?=+*[!@#$%]).{8,10}">  <!-- "{}" it is used to indicate min and max vaues   "[]" it indicates range-->
+   
+       <button type="submit">submit</button>
+    </form>
+</body>
+</html>
+
+<!-- //Quantifiers                            //pattern
+               
+
+? =0 times or 1 time                       *Synopsis 
+* = 0 time or many times ()                *password matching
++= 1 or more times                         *Email matching
+.= 1 time compulsory -->

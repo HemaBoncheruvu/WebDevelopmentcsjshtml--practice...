@@ -1,0 +1,39 @@
+
+body{
+    background-color: blueviolet;
+   
+}
+.back{
+    background-color: aliceblue;
+    height: 60vh;
+    width: 82vw;
+    padding: 50px;
+    margin-top: 120px;
+    margin-left: 60px;
+    display: flex; 
+}
+.side{
+   margin: 0px;
+    padding: 10px;
+    display: flex;
+}
+a{
+    margin-left: 40px;
+  
+   
+}
+ .btn{
+    height: 40px;
+    width: 250px;
+    background-color: blue;
+    color: aliceblue;
+    margin: 10px;
+ }
+ .bt{
+    height: 40px;
+ }
+ .img{
+    height: 150px;
+    width: 150px;
+ }
+ 
